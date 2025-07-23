@@ -124,9 +124,61 @@ console.log(result);
 //prompt("Promt");
 
 //3.Loops
+//1.for loop
 let z=5;
 let s=0;
 for(let i=1;i<=5;i++){
     s+=i;
     console.log(s);
 }
+
+//2.while loop
+let i = 1;
+while (i<=10){
+    console.log(i);
+    i++;
+}
+
+//3.do-while                  //1 time min executed
+let yy=20;
+do{
+    console.log(yy);
+    yy++;
+}while(yy<=10);
+
+//4. for-of loop for strings and arrays
+tony="SriCharan";
+let size=0;
+for (let i of tony){
+    console.log(i);
+    size++;
+}
+console.log(size);
+
+//5. For-in loops         //For objects and arrays
+const student = {
+    name:"Starc",
+    age:25,
+    id:"@mail.com",
+}
+for(let key in student){
+    console.log("Key : ",key,"   Value : ",student[key]);
+}
+//-------------------------------------------------------
+//Strings
+let str="Apna \nCollage";       ///n next line;/t tab space
+console.log(str);
+let strr="Sri/tcharan";
+console.log(strr.length);            //string property
+console.log(str[0]);
+let obj = {
+    itemm : "Pen",
+    pricee  : 10,
+};
+let out='the cost of  ${obj.itemm} is ${obj.pricee} rupees';    //string interpolation
+console.log(out);
+console.log(str.toUpperCase());          //string method
+console.log(str); 
+console.log(str.toLowerCase());
+iii="             a n i t h   a            "
+console.log(iii.trim());

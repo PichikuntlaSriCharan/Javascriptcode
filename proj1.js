@@ -51,3 +51,28 @@ else{
     console.log("Fail");
 }
 
+//4 project
+for(let ii=0;ii<=100;ii++){
+    console.log(ii);
+}
+console.log("Project 5")
+//5 Project
+for(let jj=0;jj<=100;jj++){
+    if(jj%2 ==0){
+        console.log(jj);
+    }
+}
+
+//6 Project
+let game_num=25;
+do{
+    var l=prompt("Enter any number to guess game number : ");
+
+}while(l!=game_num);
+console.log("Congratulations");
+
+//7 Project
+name=prompt("Enter user-name : ");
+let lenn=name.length;
+let id="@" + name + lenn;
+console.log(id);
