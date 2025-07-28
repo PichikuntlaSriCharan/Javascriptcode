@@ -198,3 +198,33 @@ for(let i=0;i<=scoree.length;i++){
 
 //string is immutabble 
 //Array is mutable
+
+//push(), pop() and toString() methods
+let fooditems=["Potato","apple","litchi","Tomato"];
+console.log(fooditems);
+fooditems.push("chips");      // adds last
+console.log(fooditems);
+fooditems.pop();25            // Dels last
+console.log(fooditems);
+console.log(fooditems.toString());
+console.log(fooditems);
+
+marksss = [85,97,44,37,77,76,60];
+// console.log(marksss.toString());
+
+//concat,Unshift,shift methods
+
+let concatedarray = fooditems.concat(ar,marks);
+console.log(concatedarray);
+
+concatedarray.unshift("Antman");
+console.log(concatedarray);             //adds at last
+
+dele=concatedarray.shift();            //return first item
+console.log(dele);
+//Methods start with small letters
+
+//slice and splice
+// slice(startidx,endidx);
+// splice(startidx,delcount,newelement);
+

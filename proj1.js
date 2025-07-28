@@ -25,31 +25,31 @@ console.log(typeof Profile["isfolllow"]);
 /*Multiple lines*/
 //single line
 //2 project
-let num=prompt("Enter a number : ");
-if (num%5 ==0){
-    console.log(num,"is multiple of 5");
-}
-else{
-    console.log(num,"is NOT multiple of 5");
-}
+// let num=prompt("Enter a number : ");
+// if (num%5 ==0){
+//     console.log(num,"is multiple of 5");
+// }
+// else{
+//     console.log(num,"is NOT multiple of 5");
+// }
 
 //3 project
-let score=prompt("Enter score : ");
-if(score<=100 && score>80){
-    console.log("A grade");
-}
-else if(score>70 && score<=70){
-    console.log("B grade");
-}
-else if(score>60 && score<=69){
-    console.log("C grade");
-}
-else if(score>50 && score<=59){
-    console.log("D grade");
-}
-else{
-    console.log("Fail");
-}
+// let score=prompt("Enter score : ");
+// if(score<=100 && score>80){
+//     console.log("A grade");
+// }
+// else if(score>70 && score<=70){
+//     console.log("B grade");
+// }
+// else if(score>60 && score<=69){
+//     console.log("C grade");
+// }
+// else if(score>50 && score<=59){
+//     console.log("D grade");
+// }
+// else{
+//     console.log("Fail");
+// }
 
 //4 project
 for(let ii=0;ii<=100;ii++){
@@ -65,17 +65,17 @@ for(let jj=0;jj<=100;jj++){
 
 //6 Project
 let game_num=25;
-do{
-    var l=prompt("Enter any number to guess game number : ");
+// do{
+    // var l=prompt("Enter any number to guess game number : ");
 
-}while(l!=game_num);
-console.log("Congratulations");
+// }while(l!=game_num);
+// console.log("Congratulations");
 
 //7 Project
-name=prompt("Enter user-name : ");
-let lenn=name.length1;
-let id="@" + name + lenn;
-console.log(id);
+// name=prompt("Enter user-name : ");
+// let lenn=name.length1;
+// let id="@" + name + lenn;
+// console.log(id);
 
 //5 Project
 let marks = [85,97,44,37,76,60];
@@ -96,3 +96,12 @@ for(let val of ar){
     console.log(ar[iii]);
     iii++;
 }
+
+
+companies = ["Bloomberg","Microsoft","Uber","Google","IBM","Netflex"];
+del=companies.shift();
+console.log(companies);
+companies.splice(1,1,"Ola");
+console.log(companies);
+companies.splice(5,0,"Amazon");
+console.log(companies);
