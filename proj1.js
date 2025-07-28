@@ -73,6 +73,26 @@ console.log("Congratulations");
 
 //7 Project
 name=prompt("Enter user-name : ");
-let lenn=name.length;
+let lenn=name.length1;
 let id="@" + name + lenn;
 console.log(id);
+
+//5 Project
+let marks = [85,97,44,37,76,60];
+let sum=0;
+for(let val of marks){
+    sum+=val;
+}
+let avg=sum/marks.length;
+console.log(avg);
+
+
+//6 Project
+let iii=0;
+ar=[250,645,300,900,50];
+for(let val of ar){
+    let offer=val/10;
+    ar[iii]=ar[iii]-offer;
+    console.log(ar[iii]);
+    iii++;
+}

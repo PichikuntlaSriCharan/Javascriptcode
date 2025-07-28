@@ -182,3 +182,19 @@ console.log(str);
 console.log(str.toLowerCase());
 iii="             a n i t h   a            "
 console.log(iii.trim());
+//String methods
+//str.slice(start,end);
+//str1.concat(str2);
+//str.replace(searchval,newval);,replaceAll
+//str.charAt(idx);
+
+//Arrays
+let scoree=[1,2,3,44,59];
+console.log(scoree);
+console.log(scoree.length);
+for(let i=0;i<=scoree.length;i++){
+    console.log(scoree[i]);
+}
+
+//string is immutabble 
+//Array is mutable
