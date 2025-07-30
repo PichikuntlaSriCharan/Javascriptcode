@@ -214,7 +214,7 @@ marksss = [85,97,44,37,77,76,60];
 
 //concat,Unshift,shift methods
 
-let concatedarray = fooditems.concat(ar,marks);
+let concatedarray = fooditems.concat(scoree,marksss);
 console.log(concatedarray);
 
 concatedarray.unshift("Antman");
@@ -228,3 +228,42 @@ console.log(dele);
 // slice(startidx,endidx);
 // splice(startidx,delcount,newelement);
 
+//Functions
+//Function definition            and              //Function calling/invoke
+// function functionName(param1,param2){           functionName();
+//     work
+// }
+//parameters are alive till block 
+function myFun(msg){
+    console.log(msg);
+}
+myFun("I love JS");
+
+//Sum of 2 numbers
+function sum(a,b){
+    console.log(a+b);
+}
+sum(1,2)
+sum(11,26)
+
+//Function can also return a value
+function summ(a,b){
+    s=a+b;
+    console.log("Start");
+    return s;
+    console.log("end");
+}
+
+let val=summ(30,20);
+console.log(val);
+
+//Arrow function
+// const fun_name=(param1,param2)=>{
+//     Work
+// }
+
+const arrowsum = (a,b) =>{
+    console.log(a+b);
+};
+
+arrowsum(3,4);

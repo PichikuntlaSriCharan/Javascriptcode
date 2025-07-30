@@ -105,3 +105,20 @@ companies.splice(1,1,"Ola");
 console.log(companies);
 companies.splice(5,0,"Amazon");
 console.log(companies);
+
+//No of vowels in a string using functions
+function countvowell(st){
+    let count=0;
+    for(const char of st){
+        if(char==="a" || char==="e" || char==="i" || char==="o" ||char==="u")
+            count++;
+        }
+    console.log(count);
+    }
+    
+    
+//Square of number
+let nums=[1,2,3,4,5];
+nums.forEach((num)=>{
+    console.log(num*num);    
+})
