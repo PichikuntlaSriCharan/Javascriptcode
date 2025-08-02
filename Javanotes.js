@@ -257,8 +257,8 @@ function summ(a,b){
 let val=summ(30,20);
 console.log(val);
 
-//Arrow function
-// const fun_name=(param1,param2)=>{
+//Arrow function for small lines
+// const fun_name=(param1,param32222)=>{
 //     Work
 // }
 
