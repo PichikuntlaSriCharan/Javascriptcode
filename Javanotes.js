@@ -1,4 +1,4 @@
-// // 1. Variables and data types
+// 1. Variables and data types
 // name="Ironman";                  //camel case is fullName
 // age=20;                          // = assignment operator
 // console.log(name);
@@ -405,3 +405,39 @@
 // console.dir(a);
 // console.log(a.innerText);
 // console.log(a.textContent);  //returns text content
+
+//get attributes and set attributes
+// let div=document.querySelector("div");
+// console.log(div.setAttribute("class","newclass"));  //returns class name
+// console.log(div.getAttribute("class"));  //returns class name
+// let div=document.querySelector("div");
+// console.log(div);
+// div.style.backgroundColor="purple";  //changes background color
+// console.log(div.style);
+// div.style.fontSize="20px";  //changes font size
+// div.innerText="World";  //changes inner text
+// // div.style.visibility="hidden";  //hides the element
+
+//insert element
+//1.node.append
+//2.node.prepend
+//3.node.before
+//4.node.after
+
+
+// let newbtn=document.createElement("button");
+// console.log(newbtn);
+// newbtn.innerText="Click Me";
+
+// let div=document.querySelector("div");
+// div.append(newbtn)
+// div.prepend(newbtn)
+// // div.before(newbtn)  //inserts before the div
+// div.after(newbtn)  //inserts after the div
+
+// let newmessage=document.createElement("h2");
+// newmessage.innerText="hello";
+// // document.body.append(newmessage);  //appends to body
+// document.querySelector("body").prepend(newmessage);  //prepends to body
+
+// newmessage.remove();  //removes the element

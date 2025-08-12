@@ -171,3 +171,47 @@
 //     return res*curr;
 // })
 // console.log(mularr);
+
+//Project 1
+// let a=document.querySelector("h2");
+// console.dir(a);
+// let inner=a.innerText;
+// a.innerText=inner+" from Apna Collage";
+
+
+//Project 2
+// let a=document.querySelectorAll(".box");
+// let div1=a[0].innerText;
+// a[0].innerText=div1+" hello1";
+// let div2=a[1].innerText;
+// a[1].innerText=div2+" hello2";
+// let div3=a[2].innerText;
+// a[2].innerText=div3+" hello3";
+// console.log(a[0]);
+// console.log(a[1]);
+// console.log(a[2]);
+
+//or
+// let a=document.querySelectorAll(".box");
+// let idx=1;
+// for(div of a){
+//     div.innerText=`hello ${idx}`;
+//     idx++;
+// }
+
+//project 3
+// newbtn=document.createElement("button");
+// newbtn.innerText="Click Me!";
+// newbtn.style.backgroundColor="red";
+// newbtn.style.color="white";
+
+// let body=document.querySelector("body");
+// body.prepend(newbtn);
+
+//project 4
+// let para=document.querySelector("p");
+// console.dir(para);
+// para.style.color="green";          //in style.css
+let para=document.querySelector("p");
+console.log(para);
+let a=para.getAttribute("class");
