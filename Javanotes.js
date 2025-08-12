@@ -330,3 +330,78 @@
 //     return res>curr?res:curr;
 // });
 // console.log(maxval);
+
+//DOM-----------------------------------------------------------------
+// let heading=document.getElementById("id1");     //if no id shows null 
+// console.log(heading);
+//----------------------------------------------------------------------
+// let head=document.getElementsByClassName("head-class");    //same like array
+// //if no class returns empty array html array
+// console.log(head);
+//----------------------------------------------------------------------
+// let para=document.getElementsByTagName("p");
+// console.log(para);
+//----------------------------------------------------------------------
+//Queryselector auto detucts id,class,tag
+// let a=document.querySelector("head");
+// console.log(a);
+// //----------------------------------------------------------------------
+// let allele=document.querySelectorAll("head");   //gives nodelist
+// console.log(allele);
+//----------------------------------------------------------------------
+// let a=document.querySelector(".head-class");
+// console.log(a);
+// let allele=document.querySelectorAll(".head-class");   //gives nodelist
+// console.log(allele);
+//id has no sense to all quaryselectors
+// let id=document.querySelector("#id2");
+// console.log(id);
+
+// //DOM properties   get,change,update
+
+
+//1.Tag name--returns tag name
+// let para=document.querySelector("p");
+// console.log(para.tagName);
+
+// console.dir(document.body.firstChild);  //text node
+// console.dir(document.body.lastChild);   //text node
+// console.dir(document.body.childNodes);  //returns all child nodes
+// console.dir(document.body.children);     //returns only element nodes
+
+
+//2.innerHTML--returns inner html
+//3/innerText--returns inner text
+// let para=document.querySelector("p");
+// console.log(para.innerHTML);
+// para.innerHTML="New content";  //updates inner html
+// console.log(para.innerHTML);
+// console.log(para.innerText);
+
+//let div=document.querySelector("div");
+// console.log(div);
+// console.log(div.innerHTML);
+// console.log(div.innerText);
+
+
+//input and output-----
+// div.innerText="abcd"
+// 'abcd'
+// div.innerText
+// 'abcd'
+// div.innerHTMLM
+// undefined
+// div.innerHTML
+// 'abcd'
+// div.innerHTML="<i>newmessage</i>"
+// '<i>newmessage</i>'
+// div.innerHTML
+// '<i>newmessage</i>'
+// div.innerText
+// 'newmessage'
+
+//4.textContent--returns text content
+// let a=document.querySelector("h2");
+// console.dir(a);
+// console.log(a.innerText);
+// console.log(a.textContent);  //returns text content
