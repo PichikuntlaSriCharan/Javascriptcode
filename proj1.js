@@ -212,6 +212,8 @@
 // let para=document.querySelector("p");
 // console.dir(para);
 // para.style.color="green";          //in style.css
-let para=document.querySelector("p");
-console.log(para);
-let a=para.getAttribute("class");
+// let para=document.querySelector("p");
+// console.log(para);
+// let a=para.getAttribute("class");
+
+//Project 5

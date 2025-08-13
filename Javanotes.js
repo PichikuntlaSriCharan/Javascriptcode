@@ -441,3 +441,84 @@
 // document.querySelector("body").prepend(newmessage);  //prepends to body
 
 // newmessage.remove();  //removes the element
+
+//classList property
+// para.classList
+// DOMTokenList ['para', value: 'para']
+// para.classList.add("newclass");
+// para.classList
+// DOMTokenList(2) ['para', 'newclass', value: 'para newclass']
+
+//Event---------------------------
+let btn1=document.querySelector(".btn");
+// let a=0;
+// btn1.onclick=()=>{
+//     console.log("Handler1");
+//     a++
+//     console.log(a);
+// }
+
+
+// let div1=document.querySelector("#div1");
+// div1.onmouseover=()=>{
+//     console.log("Mouse over event");
+// }
+
+//Event object
+// btn1.onclick=(evt)=>{
+//     console.log(evt);
+//     console.log(evt.type);
+//     console.log(evt.target);
+//     console.log(evt.clientX, evt.clientY);  //gives x and y coordinates of mouse click
+// }
+
+//Event listeners
+// btn1.addEventListener("click", ()=>{
+//     console.log("Event listener 1");
+// });
+// btn1.addEventListener("click", ()=>{
+//     console.log("Event listener 2");
+// });
+// const handler3=()=>{
+//     console.log("Event listener 3");
+// }
+// btn1.addEventListener("click",handler3);
+
+// btn1.addEventListener("click", ()=>{
+//     console.log("Event listener 4");
+// });
+
+// btn1.removeEventListener("click",handler3);  //removes the event listener
+
+//Event object
+// btn1.addEventListener("click", (evt)=>{
+//     console.log(evt);
+//     console.log(evt.type);
+//     console.log(evt.target);
+//     console.log(evt.clientX, evt.clientY);  //gives x and y coordinates of mouse click
+// });
+//Changing mode project
+// let button=document.querySelector("button");
+// // button.onclick=()=>{
+// //     if(button.innerText === "Light Mode") {
+// //         button.innerText="Dark Mode";
+// //     }
+// //     else(button.innerText === "Dark Mode") {
+// //         button.innerText="Light Mode";
+// //     }
+// // }
+// let body=document.querySelector("body");
+// let para=document.querySelector("p");
+// button.addEventListener("click", ()=>{
+//     console.log(button.innerText)
+//     if(button.innerText === "Dark Mode"){
+//         button.innerText="Light Mode";
+//         body.classList.add("dark");
+//         body.classList.remove("light");
+
+//     }else{
+//         button.innerText="Dark Mode";
+//         body.classList.remove("dark");
+//         body.classList.add("light");
+//     }
+// });
