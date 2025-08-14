@@ -217,26 +217,27 @@
 // let a=para.getAttribute("class");
 
 //Project 5
-class User{
-    constructor(name, email) {
-        this.name = name;
-        this.email = email;
-    }
-    viewdate(){
-        console.log("name: " + this.name + ", age: " + this.age);
-    }
-}
+// let data="secret message"; 
+// class User{
+//     constructor(name, email) {
+//         this.name = name;
+//         this.email = email;
+//     }
+//     viewdate(){
+//         console.log(data);
+//     }
+// }
 
-class Admin{
-    constructor(name, email){
-        this.name = name;
-        this.email = email;
-    }
+// class Admin extends User {
+//     constructor(name, email){
+//         super(name, email);
+//     }
 
-    edit(){
-        
-    }
-}
+//     edit(name, email)  {
+//         data="new dataf";
 
-obj1 = new User("Sri Charan", 20);
-obj1.viewdate();
+//     }
+// }
+
+// obj1 = new User("Sri Charan", 20);
+// obj1.viewdate();

@@ -607,3 +607,19 @@ let btn1=document.querySelector(".btn");
 
 // let e1=new Engineer("CSE");
 // //Super keyword
+
+//error handling
+// let a=10;
+// let b=5;
+// console.log("a=",a);
+// console.log("b=",b);
+// console.log("a+b=",a+b);
+// try {
+//     console.log("a+b=",a+c);
+// } catch (error) {
+//     console.log("Error occurred:", error);
+// }
+// console.log("a+b=",a+b);
+// console.log("a+b=",a+b);
+// console.log("a+b=",a+b);
+// console.log("a+b=",a+b);
