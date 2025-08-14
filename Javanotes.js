@@ -497,7 +497,7 @@ let btn1=document.querySelector(".btn");
 //     console.log(evt.target);
 //     console.log(evt.clientX, evt.clientY);  //gives x and y coordinates of mouse click
 // });
-//Changing mode project
+//Changing mode project------------------------------------
 // let button=document.querySelector("button");
 // // button.onclick=()=>{
 // //     if(button.innerText === "Light Mode") {
@@ -522,3 +522,88 @@ let btn1=document.querySelector(".btn");
 //         body.classList.add("light");
 //     }
 // });
+
+//Object        //an entity having state and behaviour(properties and methods)
+// const student={
+//     fullName:"SriCharan",
+//     marks:100,
+//     printmarks: function(){
+//         console.log(this.marks);
+//     }
+// }
+
+// const Person = {
+//     collage:"Apna Collage",
+//     mail:".gmail.com",
+// };
+// const karan={
+//     salary:20,
+//     collage:"Apna Collage",
+//     mail:".gmail.com",
+// };                      //object method will be used than proto is same methodis present
+
+// karan.__proto__=Person;  //setting prototype
+//classes
+// class car {
+//     start() {
+//         console.log("Car started");
+//     }
+//     stop() {
+//         console.log("Car stopped");
+//     }
+//     Year(year){
+//         this.yearman=year;
+//     }
+// }
+// const bmw=new car();
+    
+//  class ToyataCar{
+//     constructor(brand,mileage){
+//         console.log("Constructor called");
+//         this.brand=brand;
+//         this.mileage=mileage;
+//     }
+//     start() {
+//         console.log("Car started");
+//     }
+//     stop() {
+//         console.log("Car stopped");
+//     }
+// }
+
+// let lexus=new ToyataCar("Lexus", 15);    
+// let toyato=new ToyataCar();
+// toyato.brand="Toyato";
+// toyato.mileage=20;   
+
+//Inheritance   //passing down properties from parent to child
+// class Person{
+//     constructor(){
+//         console.log("Enter parent constructor");
+//         this.species="Human";
+//     }
+
+//     eat(){
+//         conaole.log("Eat");
+//     }
+
+//     sleep(){
+//         console.log("Sleep");
+//     }
+//     work(){
+//         console.log("Do nothing");
+//     }
+// }
+// class Engineer extends Person{
+//     constructor(branch){
+//         console.log("Enter child constructor");
+//         super();  //calls parent constructor
+//         console.log("Exit child constructor");
+//     }
+//     work(){
+//         console.log("Work as an Engineer");
+//     }
+// }
+
+// let e1=new Engineer("CSE");
+// //Super keyword

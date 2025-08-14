@@ -217,3 +217,26 @@
 // let a=para.getAttribute("class");
 
 //Project 5
+class User{
+    constructor(name, email) {
+        this.name = name;
+        this.email = email;
+    }
+    viewdate(){
+        console.log("name: " + this.name + ", age: " + this.age);
+    }
+}
+
+class Admin{
+    constructor(name, email){
+        this.name = name;
+        this.email = email;
+    }
+
+    edit(){
+        
+    }
+}
+
+obj1 = new User("Sri Charan", 20);
+obj1.viewdate();
